@@ -14,11 +14,9 @@ const SimpleForm = () => {
             <input id="texInput" className="mt-2 border-2 border-black" type="text" name="name" placeholder="Name" />
             <br />
             <input className="border-2 border-black mt-2" 
-            onChange={handleEmailChange}
             type="email" name="email" id="emailInput" placeholder="Email" />
             <br />
             <input className="border-2 border-black mt-2" 
-            onChange={handlePasswordChange}
             type="password" name="password" id="passwordInput" placeholder="password"/>
             <br />
             <input id="submit" className="mt-2 bg-gray-200 p-2 rounded-lg text-lg font-semibold"  type="submit" value="Submit" />
