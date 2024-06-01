@@ -21,7 +21,6 @@ const SimpleForm = () => {
             <br />
             <input id="submit" className="mt-2 bg-gray-200 p-2 rounded-lg text-lg font-semibold"  type="submit" value="Submit" />
             </form>
-
         </div>
     );
 };
